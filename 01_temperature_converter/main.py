@@ -24,3 +24,20 @@ print(f'{fahrenheit_input}°F -> {converted_to_c:.1f}°C')
 #
 # Remember, the homework is optional—but doing it will help you
 # learn Python much faster than just watching me code.
+
+#Homework
+# Contants
+MILES_TO_KM = 1.60934
+KM_TO_MILES = 1 / 1.60934
+
+# User input
+miles_input = 26.2
+km_input = 100
+
+# Conversions
+converted_to_km = miles_input * MILES_TO_KM
+converted_to_miles = km_input * KM_TO_MILES
+
+# Display
+print(f'{miles_input}mi -> {converted_to_km:.1f}km')
+print(f'{km_input}km -> {converted_to_miles:.1f}mi')
