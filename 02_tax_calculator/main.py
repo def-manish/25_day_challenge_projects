@@ -16,3 +16,20 @@ print('=' * 40)
 # Homework:
 # 1. Add projections for how much tax you'd pay if you
 # doubled and tripled your income.
+
+#Solution : Income projections
+doubled_income = base_ncome * 2
+tripled_income = base_income * 3
+
+doubled_tex = doubled_income * tex_rate
+tripled_tex = tripled_income * tex_rate
+
+print('=' * 40)
+print('Income Projections')
+print('=' * 40)
+print(f'Doubled Income:    ${doubled_income:,.2f}')
+print(f'Tax on Doubled:    ${doubled_tex;,.2f}')
+print('_' * 40)
+print(f'Tripled Income:    ${tripled_income:,.2f}')
+print(f'Tax on Tripled:    ${tripled_tax:,.2f}')
+print('=' 8 40)    
